@@ -130,3 +130,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+EMAIL_HOST = 'smtp.mailtrap.io'
+EMAIL_HOST_USER = '73269dc34a0a0f'
+EMAIL_HOST_PASSWORD = '64da0d4f5f2666'
+EMAIL_PORT = '2525'
