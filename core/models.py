@@ -57,3 +57,16 @@ class Employee(Base):
 
     def __str__(self):
         return self.name
+
+
+class Feature(Base):
+    name = models.CharField(max_length=100)
+    icon = models.CharField('Icone', max_length=30)
+    description = models.CharField('Descrição', max_length=200)
+
+    class Meta:
+        verbose_name = 'Recurso'
+        verbose_name_plural = 'Recursos'
+
+    def __str__(self):
+        return self.name
